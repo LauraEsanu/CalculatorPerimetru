@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 To use this application, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
-   git clone https://github.com/LauraEsanu/ProiectFinal
+   git clone https://github.com/LauraEsanu/CalculatorPerimetru
 2. Open the project in your preferred Java IDE (Eclipse, IntelliJ, etc.).
 
 3. Navigate to the Main class in the `src` folder and run the Main class.
