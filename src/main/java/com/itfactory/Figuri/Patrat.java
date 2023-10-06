@@ -1,11 +1,11 @@
 package com.itfactory.Figuri;
 
-import com.itfactory.CalculPerimetru;
+import com.itfactory.FormaGeometrica;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Patrat implements CalculPerimetru {
+public class Patrat implements FormaGeometrica {
     double latura;
 
     public Patrat(double latura) {
@@ -24,6 +24,7 @@ public class Patrat implements CalculPerimetru {
         if (latura <= 0) {
             throw new IOException("Valoarea introdusa trebuie sa fie mai mare de 0");
         }
+
         return new Patrat(latura);
     }
 }

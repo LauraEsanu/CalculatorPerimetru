@@ -1,11 +1,11 @@
 package com.itfactory.Figuri;
 
-import com.itfactory.CalculPerimetru;
+import com.itfactory.FormaGeometrica;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Trapez implements CalculPerimetru {
+public class Trapez implements FormaGeometrica {
     double bazaMare;
     double bazaMica;
     double latura1;

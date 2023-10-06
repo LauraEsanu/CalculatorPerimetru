@@ -1,12 +1,12 @@
 package com.itfactory.Figuri;
 
 
-import com.itfactory.CalculPerimetru;
+import com.itfactory.FormaGeometrica;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Triunghi implements CalculPerimetru {
+public class Triunghi implements FormaGeometrica {
     double latura1;
     double latura2;
     double latura3;

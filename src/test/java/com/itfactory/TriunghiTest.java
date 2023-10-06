@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class TringhiTest {
+public class TriunghiTest {
 
     @Test
     public void testPerimetruTriunghi() {

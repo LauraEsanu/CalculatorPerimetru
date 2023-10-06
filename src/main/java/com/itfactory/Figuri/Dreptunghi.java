@@ -1,11 +1,11 @@
 package com.itfactory.Figuri;
 
-import com.itfactory.CalculPerimetru;
+import com.itfactory.FormaGeometrica;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Dreptunghi implements CalculPerimetru {
+public class Dreptunghi implements FormaGeometrica {
     double lungime;
     double latime;
 
@@ -33,6 +33,7 @@ public class Dreptunghi implements CalculPerimetru {
             throw new IOException("Valoarea introdusa trebuie sa fie mai mare de 0");
         }
         return new Dreptunghi(lungime, latime);
+
     }
 }
 

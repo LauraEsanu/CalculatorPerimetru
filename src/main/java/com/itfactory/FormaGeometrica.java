@@ -1,6 +1,6 @@
 package com.itfactory;
 
-public interface CalculPerimetru {
+public interface FormaGeometrica {
 
         public double perimetrul();
 }
