@@ -20,8 +20,7 @@ public class Dreptunghi implements FormaGeometrica {
     }
 
 
-    public static Dreptunghi creeazaDreptunghi() throws IOException {
-        Scanner scanner = new Scanner(System.in);
+    public static Dreptunghi creeazaDreptunghi(Scanner scanner) throws IOException {
         System.out.println("Introduceti lungimea dreptunghiului: ");
         double lungime = Double.parseDouble(scanner.nextLine());
         if (lungime <= 0) {

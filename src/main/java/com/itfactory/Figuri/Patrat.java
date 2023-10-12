@@ -17,8 +17,7 @@ public class Patrat implements FormaGeometrica {
         return 4 * this.latura;
     }
 
-    public static Patrat creeazaPatrat() throws IOException {
-        Scanner scanner = new Scanner(System.in);
+    public static Patrat creeazaPatrat(Scanner scanner) throws IOException {
         System.out.println("Introduceti latura patratului: ");
         double latura = Double.parseDouble(scanner.nextLine());
         if (latura <= 0) {

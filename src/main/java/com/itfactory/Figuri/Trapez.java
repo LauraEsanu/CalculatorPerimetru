@@ -24,8 +24,7 @@ public class Trapez implements FormaGeometrica {
         return bazaMare + bazaMica + latura1 + latura2;
     }
 
-    public static Trapez creeazaTrapez() throws IOException {
-        Scanner scanner = new Scanner(System.in);
+    public static Trapez creeazaTrapez(Scanner scanner) throws IOException {
         System.out.println("Introduceti baza mica a trapezului: ");
         double bazaMica = Double.parseDouble(scanner.nextLine());
         if (bazaMica <= 0) {

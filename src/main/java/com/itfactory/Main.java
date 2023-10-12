@@ -13,7 +13,7 @@ public class Main {
 
 
         while (true) {
-            System.out.println("""
+            System.out.print("""
                 
                 Alegeti din urmatoarele optiuni:\s
                 1 - Calculator perimetru dreptunghi
@@ -27,25 +27,25 @@ public class Main {
 
             switch (optiune) {
                 case 1:
-                    Dreptunghi dreptunghi = Dreptunghi.creeazaDreptunghi();
+                    Dreptunghi dreptunghi = Dreptunghi.creeazaDreptunghi(sc);
                     double p1 = dreptunghi.perimetrul();
                     System.out.print("Perimetrul dreptunghiului este egal cu " + p1);
                     break;
 
                 case 2:
-                    Patrat patrat = Patrat.creeazaPatrat();
+                    Patrat patrat = Patrat.creeazaPatrat(sc);
                     double p2 = patrat.perimetrul();
                     System.out.print("Perimetrul patratului este egal cu " + p2);
                     break;
 
                 case 3:
-                    Trapez trapez = Trapez.creeazaTrapez();
+                    Trapez trapez = Trapez.creeazaTrapez(sc);
                     double p3 = trapez.perimetrul();
                     System.out.print("Perimetrul trapezului este egal cu " + p3);
                     break;
 
                 case 4:
-                    Triunghi triunghi = Triunghi.creeazaTriunghi();
+                    Triunghi triunghi = Triunghi.creeazaTriunghi(sc);
                     double p4 = triunghi.perimetrul();
                     System.out.print("Perimetrul triunghiului este egal cu " + p4);
                     break;

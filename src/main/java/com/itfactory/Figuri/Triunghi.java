@@ -23,8 +23,7 @@ public class Triunghi implements FormaGeometrica {
         return latura1 + latura2 + latura3;
     }
 
-    public static Triunghi creeazaTriunghi() throws IOException {
-        Scanner scanner = new Scanner(System.in);
+    public static Triunghi creeazaTriunghi(Scanner scanner) throws IOException {
         System.out.println("Introduceti prima latura: ");
         double latura1 = Double.parseDouble(scanner.nextLine());
         if (latura1 <= 0) {
